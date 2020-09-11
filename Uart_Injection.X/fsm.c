@@ -2,8 +2,8 @@
 #include "common/Tick.h"
 #include "common/console.h"
 
-#define PB1  _RD0
-#define PB2  _RD1
+#define PB1  _RD6
+#define PB2  _RD7
 
 void task1(void) {
 	static unsigned long lastTick;		
