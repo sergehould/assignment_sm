@@ -42,8 +42,8 @@ void OSCILLATOR_Initialize(void)
 void initIO(void){
     _TRISA6 =0; // LED2
     _TRISA5 =0; // LED1
-    _TRISD0=1;  //PB1
-    _TRISD1=1;  //PB2 
+    _TRISD6=1;  //PB1
+    _TRISD7=1;  //PB2 
    // _TRISG8 =1; // input CN10 on RG8
 }
 
