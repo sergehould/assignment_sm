@@ -16,8 +16,8 @@ void Task1_init(void){
 }
 
 void task1(void) {
-    static int cnt =0;
- 	static enum {SM0, SM1} state=0;
+    static int cnt = 0;
+ 	static enum {SM0 = 0, SM1} state = 0;
    	switch(state){
 		case SM0:
             if(TickDiff(lastTick)> TIMEOUT){
