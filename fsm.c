@@ -20,7 +20,7 @@ void task1(void) {
  	static enum {SM0 = 0, SM1} state = 0;
    	switch(state){
 		case SM0:
-            if(TickDiff(lastTick)> TIMEOUT){
+            if(tick_diff(lastTick)> TIMEOUT){
                 printf("toggling %d\n", cnt++);
                 lastTick=TickGet();
                 state = SM1;
