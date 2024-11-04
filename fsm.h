@@ -8,5 +8,5 @@
 #ifndef FSM_H
 #define	FSM_H
 void task1(void);
-void Task1_init(void);
+void task1_init(void);
 #endif	/* FSM_H */
