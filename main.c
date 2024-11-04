@@ -20,7 +20,7 @@ int main( void){
     
     uart1_init();
     set_stdio(C_UART1);
-    Task1_init();
+    task1_init();
     
     //Super loop
     while( 1){
