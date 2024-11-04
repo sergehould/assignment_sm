@@ -10,7 +10,7 @@
 
 static int32_t lastTick;
 
-void Task1_init(void){
+void task1_init(void){
     printf("Starting\n");
     lastTick=TickGet();
 }
