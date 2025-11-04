@@ -6,7 +6,7 @@
  * you have until the end of the class to complete it 
  * and give a demo to the teacher.
  *
- * November 2024
+ * November 2025
  * 		
  ******************************************************************************/
 
@@ -24,7 +24,7 @@ int main( void){
     
     //Super loop
     while( 1){
-		task1(); // Runs task1			
+		
 	}//while(1))
 
 }// main
